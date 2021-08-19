@@ -65,6 +65,6 @@ setup(
     tests_require=tests_requires,
     packages=packages,
     dependency_links=[
-        'git+https://github.com/kashnick/udatetime@master#egg=udatetime-0.0.16,
+        'git+https://github.com/kashnick/udatetime@master#egg=udatetime-0.0.16'
     ],
 )
