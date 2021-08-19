@@ -12,7 +12,7 @@ long_desc = 'Python 3 client for the Real Estate Transaction Standard (RETS) Ver
 install_requires = [
     'requests>=2.12.3',
     'requests-toolbelt>=0.7.0,!=0.9.0',
-    'udatetime==0.0.16',
+    'udatetime @ git+https://github.com/kashnick/udatetime@master#egg=udatetime-0.0.16',
     'docopts',
     'lxml>=4.3.0',
 ]
@@ -63,8 +63,5 @@ setup(
     install_requires=install_requires,
     setup_requires=setup_requires,
     tests_require=tests_requires,
-    packages=packages,
-    dependency_links=[
-        'git+https://github.com/kashnick/udatetime@master#egg=udatetime-0.0.16'
-    ],
+    packages=packages
 )
