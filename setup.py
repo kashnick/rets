@@ -15,6 +15,7 @@ install_requires = [
     'udatetime @ git+https://github.com/kashnick/udatetime@master#egg=udatetime-0.0.16',
     'docopts',
     'lxml>=4.3.0',
+    'xmltodict>=0.12.0',
 ]
 
 setup_requires = [
