@@ -2,13 +2,13 @@ from collections import OrderedDict
 from itertools import zip_longest
 from typing import Iterable, Sequence, Tuple, Union
 from lxml import etree
-from xmltodict import parse
 
 from requests import Response
 from requests_toolbelt.multipart.decoder import BodyPart
 
 from rets.errors import RetsParseError, RetsApiError, RetsResponseError
 from rets.http.data import Metadata, SearchResult, SystemMetadata
+import xmltodict
 
 DEFAULT_ENCODING = 'utf-8'
 
